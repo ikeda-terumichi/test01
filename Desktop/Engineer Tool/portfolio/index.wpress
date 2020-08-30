@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="uft-8">
+    <title>池田輝道のプロフィールサイト</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="このサイトは、池田輝道のプロフィールをまとめたものです。">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="first">
+        <p>池田輝道のポートフォリオサイト</p>
+      </div>
+      <div class="second">
+        <p>池田輝道の<br>ポートフォリオサイト</p>
+      </div>
+      <nav>
+        <ul class="ul1">
+          <li><a href="/">自己紹介</a></li>
+          <li><a href="/">作品一覧</a></li>
+          <li><a href="/">ご連絡先</a></li>
+        </ul>
+      </nav>
+    
+      <div class="cp_cont">
+        <div class="cp_offcm01">
+          <input type="checkbox" id="cp_toggle01">
+          <label for="cp_toggle01"></label>
+          <div class="cp_menu">
+            <ul>
+              <li><a href="#">自己紹介</a></li>
+              <li><a href="#">作品一覧</a></li>
+              <li><a href="#">ご連絡先</a></li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+
+
+    </header>
+
+    <div class="top-wrapper">
+      <div class="container">
+        <h1 class="animate__animated animate__backInDown">Welcome to My Portfolio page!</h1>
+      </div>  
+    </div>
+
+    <div class="introduction">
+      <div class="container">
+        <h1>簡単な自己紹介</h1>
+        <div class="introduction-img">
+          <img src="op1.png" width="95%" height="" alt="←これが私です。">
+          <!--alt属性は画像がうまく表示されないときに、テキストを表示してくれる。親切設計らしい。-->   
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="container">
+        <h2>作品一覧</h2>
+        <div class="slick01">
+          <img src="abandoned-places-5180254_1920.jpg" alt="画像1">
+          <img src="apple-blossom-5180575_1920.jpg" alt="画像2">
+          <img src="city-5164368_1920.jpg" alt="画像3">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <h2>ご連絡はこちらに</h2>
+        <p class="gmail"><span class="fab fa-google"></span>gmail(AbeShinzo＠gmail.com)</p>
+        <p class="twitter"><span class="fab fa-twitter"></span>Twitter(<a  href="https://twitter.com/AbeShinzo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">@AbeShinzo</a>)</p>
+      </div>
+    </footer>
+    <script src="js/scrollreveal.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+  </body>
+</html>

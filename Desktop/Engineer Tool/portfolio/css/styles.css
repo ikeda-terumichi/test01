@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+
+html,body,header,div,h1,h2,footer,p,a {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.cp_cont {
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+
+header {
+  background-color: rgba(11, 8, 14, 0.8);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second {
+  display: none;
+}
+
+header p {
+  color: white;
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+header .ul1 {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+header a {
+  display: inline-block;
+  color: cornsilk;
+  text-decoration: none;
+}
+
+header li {
+  padding: 15px 10px;
+  border-radius: 1vw;
+}
+
+.fa-bars {
+  display: none;
+  color: white;
+}
+
+header li:hover {
+  background-color:rgba(255, 255, 255, 0.418);
+  transition:all 0.7s;
+}
+
+.container {
+  width: 100%
+}
+
+.top-wrapper {
+  background-image: url("https://cdn.pixabay.com/photo/2020/04/18/20/01/background-5060836_1280.jpg");
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-wrapper h1 {
+  text-shadow:0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00;
+  font-size: 120px;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+}
+
+.introduction {
+  background-image: url("https://cdn.pixabay.com/photo/2020/04/20/08/04/paper-frame-5066931_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  position: relative;
+}
+
+.introduction h1 {
+  padding-top: 1px;
+  text-align: center;
+  font-size: 70px;
+  text-shadow:0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00;
+  color: azure;
+  z-index: 10;
+  position: absolute;
+  top:  50px;                    /* 上からの位置指定 */
+  bottom:  0;                 /* 下からの位置指定 */
+  left:  0;                   /* 左からの位置指定 */
+  right:  0;                  /* 右からの位置指定 */
+  margin:  auto;
+}
+
+.introduction-img {
+ text-align: center;
+ z-index: 5;
+}
+
+.portfolio {
+  background: linear-gradient( rgba(255, 255, 255, 0.397), rgba(246, 255, 0, .5)),
+  url(images/bg-cherrybrossam.jpg);
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.portfolio h2 {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.portfolio p {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 60px;
+}
+
+
+
+footer {
+  padding: 10px 0;
+}
+
+footer h2 {
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+footer p  {
+  display: inline-block;
+  margin-right: 2px;
+  padding: 4px 7px;
+  color: white;
+  border-radius: 4px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.slider01 {
+
+  width: 80%;
+}
+
+.slider01 img {
+  height: auto;
+  width: 100%;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+  z-index: 9;
+  display: flex;
+}
+
+button {
+  margin: 0 10px;
+  font-size: 3px;
+  opacity: 0.7;
+}
+
+
+.gmail {
+  background-color: rgb(243, 86, 72);
+  margin-left: 50px;
+}
+
+.twitter {
+  background-color: rgb(29,161,242 );
+}
+
+.fab {
+  padding-right: 5px;
+}
